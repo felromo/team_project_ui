@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import './typography.css';
 
-export const Heading = ({ child, color }) => (
-  <p className={`brand-heading ${color ? color + '-color' : ''}`}>{child}</p>
+export const Heading = ({ child, color, style }) => (
+  <p className={`brand-heading ${color ? color + '-color' : ''}`} style={style}>{child}</p>
 );
 
 Heading.propTypes = {
@@ -16,8 +16,8 @@ Heading.defaultProps = {
   color: 'primary',
 };
 
-export const SubHeading = ({ child, color }) => (
-  <p className={`brand-subheading ${color ? color + '-color' : ''}`}>{child}</p>
+export const SubHeading = ({ child, color, style }) => (
+  <p className={`brand-subheading ${color ? color + '-color' : ''}`} style={style}>{child}</p>
 );
 SubHeading.propTypes = {
   child: PropTypes.string,
@@ -28,8 +28,8 @@ SubHeading.defaultProps = {
   color: 'primary',
 };
 
-export const Title = ({ child, color }) => (
-  <p className={`brand-title ${color ? color + '-color' : ''}`}>{child}</p>
+export const Title = ({ child, color, style }) => (
+  <p className={`brand-title ${color ? color + '-color' : ''}`} style={style}>{child}</p>
 );
 Title.propTypes = {
   child: PropTypes.string,
@@ -40,8 +40,8 @@ Title.defaultProps = {
   color: 'primary',
 };
 
-export const Copy = ({ child, color }) => (
-  <p className={`brand-copy ${color ? color + '-color' : ''}`}>{child}</p>
+export const Copy = ({ child, color, style }) => (
+  <p className={`brand-copy ${color ? color + '-color' : ''}`} style={style}>{child}</p>
 );
 Copy.propTypes = {
   child: PropTypes.string,
