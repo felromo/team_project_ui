@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.brand-button {
+  display: inline-block;
+  width: 210px;
+  height: 63px;
+  border-radius: 31.5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.primary {
+  background: linear-gradient(to right, #a16ca7, #4b2252);
+  color: white;
+}
+
+.secondary {
+  background-color: #F5EEF6;
+  color: #6C3F73;
+}
+
+.tertiary {
+  background-color: transparent;
+  color: #1d1d1d;
+}
