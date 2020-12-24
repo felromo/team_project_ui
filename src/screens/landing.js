@@ -3,8 +3,10 @@ import React from 'react';
 import { Heading, SubHeading } from '../components/Typography';
 import { Button } from '../components/Button';
 
+import './landing.css';
+
 export const LandingScreen = (_) => (
-  <div>
+  <div className="landing-section">
     <div>
       <img />
       <Heading child="A Better Way To Manage Your Team"/>
