@@ -9,14 +9,27 @@ import './card.css';
 
 export const Card = ({ title, amount, status, light, progress, action }) => (
   <div className={`brand-card card-${light ? 'light' : 'dark'}`}>
-    <Copy color={`${!light ? 'light' : 'dark'}`} child="Meetings" />
+    <Copy color={`${!light ? 'light' : 'dark'}`} child={title} />
     <div>
-      <SubHeading color={`${!light ? 'light' : 'dark'}`} child="10" />
-      <Copy color={`${!light ? 'light' : 'dark'}`} child="Pending" />
+      <SubHeading
+        color={`${!light ? 'light' : 'dark'}`}
+        child={amount}
+        style={{
+          fontWeight: 'bold',
+          fontSize: '35px',
+        }}
+      />
+      <Copy color={`${!light ? 'light' : 'dark'}`} child={status} />
       {progress ? (
         <>
           <ProgressBar value={progress.value} />
-          <Copy color={`${!light ? 'light' : 'dark'}`} child={progress.label} />
+          <Copy
+            color={`${!light ? 'light' : 'dark'}`}
+            child={progress.label}
+            style={{
+              marginTop: '8px',
+            }}
+          />
         </>
       ) : (
         ''
@@ -31,6 +44,7 @@ export const Card = ({ title, amount, status, light, progress, action }) => (
             fontSize: '11px',
             height: 'inherit',
             padding: '11px 0',
+            marginTop: '8px',
           }}
         />
       ) : (
