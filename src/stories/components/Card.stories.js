@@ -15,3 +15,6 @@ export const DefaultCard = Template.bind({});
 DefaultCard.args = {
 
 };
+
+export const WithAction = Template.bind({});
+WithAction.args = {};
