@@ -11,12 +11,16 @@
 }
 
 .brand-heading {
+  font-size: 45px;
 }
 .brand-subheading {
+  font-size: 20px;
 }
 .brand-title {
+  font-size: 18px;
 }
 .brand-copy {
+  font-size: 14px;
 }
 
 .default-color,
@@ -26,4 +30,12 @@
 
 .light-color {
   color: white;
+}
+
+.primary-color {
+  color: #6C3F73;
+}
+
+.secondary-color {
+  color: rgba(138, 149, 158, .8),
 }
