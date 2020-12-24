@@ -11,15 +11,25 @@ export default METADATA;
 
 const Template = (args) => <Card {...args} />;
 
-export const DefaultCard = Template.bind({});
-DefaultCard.args = {
+export const DarkCard = Template.bind({});
+DarkCard.args = {
   title: 'Meetings',
   amount: 10,
   status: 'Pending',
 };
 
-export const WithAction = Template.bind({});
-WithAction.args = {
-  ...DefaultCard.args,
+export const LightCard = Template.bind({});
+LightCard.args = {
+  ...DarkCard.args,
+};
+
+export const DarkCardWithAction = Template.bind({});
+DarkCardWithAction.args = {
+  ...DarkCard.args,
   action: { child: 'Card Action', onPress: null },
+};
+
+export const LightCardWithAction = Template.bind({});
+LightCardWithAction.args = {
+  ...DarkCardWithAction,
 };
