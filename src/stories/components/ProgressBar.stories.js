@@ -12,10 +12,16 @@ export default METADATA;
 const Template = (args) => <ProgressBar {...args} />;
 
 export const EmptyBar = Template.bind({});
-EmptyBar.args = {};
+EmptyBar.args = {
+  value: 0,
+};
 
 export const PartialBar = Template.bind({});
-PartialBar.args = {};
+PartialBar.args = {
+  value: 50,
+};
 
 export const FullBar = Template.bind({});
-FullBar.args = {};
+FullBar.args = {
+  value: 100,
+};
