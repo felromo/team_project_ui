@@ -11,14 +11,23 @@
   justify-content: space-between;
 }
 
+.profile-section .title-section {
+  margin-top: 2rem;
+}
+
+.profile-section .grid-section {
+  margin-top: 2rem;
+}
+
 .profile-section .grid-container {
   display: grid;
+  margin-top: 1rem;
   column-gap: 8px;
   row-gap: 8px;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
-/* .profile-section .grid-container div:nth-child(odd) {
-  margin-right: 8px;
-} */
+.profile-section .bot-buttons-section {
+  margin-top: 2rem;
+}
