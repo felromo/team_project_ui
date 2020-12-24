@@ -5,9 +5,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v1
-      run: yarn
-      uses: chromaui/action@v1
-      with:
-        projectToken: ${{ secrets.PROJECT_TOKEN }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v1
+      - run: yarn
+      - uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
