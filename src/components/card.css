@@ -1,0 +1,12 @@
+.brand-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 171px;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(140deg, #A16CA7, #4B2252);
+}
