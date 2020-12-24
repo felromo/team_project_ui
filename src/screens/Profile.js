@@ -14,7 +14,7 @@ export const ProfileScreen = (_) => (
         <button>hamburger</button>
         <Avatar />
       </nav>
-      <div>
+      <div className="title-section">
         <SubHeading
           color="dark"
           child="Good Evening User!"
@@ -31,7 +31,7 @@ export const ProfileScreen = (_) => (
           <Card />
         </div>
       </div>
-      <div>
+      <div className="bot-buttons-section">
         <Button buttonHierarchy="primary" child="Create Project" />
       </div>
     </div>
