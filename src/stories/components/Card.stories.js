@@ -21,6 +21,7 @@ DarkCard.args = {
 export const LightCard = Template.bind({});
 LightCard.args = {
   ...DarkCard.args,
+  light: true,
 };
 
 export const DarkCardWithAction = Template.bind({});
@@ -31,5 +32,6 @@ DarkCardWithAction.args = {
 
 export const LightCardWithAction = Template.bind({});
 LightCardWithAction.args = {
-  ...DarkCardWithAction,
+  ...DarkCardWithAction.args,
+  light: true,
 };
