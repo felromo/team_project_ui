@@ -20,6 +20,7 @@ export const ProfileScreen = (_) => (
           child="Good Evening User!"
           style={{ fontSize: '20px' }}
         />
+        <div style={{height: '8px'}}/>
         <Heading color="dark" child="Projects" />
       </div>
       <div className="grid-section">
