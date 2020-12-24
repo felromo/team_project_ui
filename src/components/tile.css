@@ -1,0 +1,43 @@
+.brand-tile {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 360px;
+  height: 135px;
+  background-color: white;
+  padding: 16px 16px;
+  border: none;
+  border-radius: 6px;
+}
+
+.tile-info-row {
+  display: flex;
+}
+
+.tile-logo {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #FF9C6B;
+  border: none;
+  border-radius: 6px;
+  position: relative;
+}
+
+.tile-logo:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #ff9c6b;
+  border: 3px solid white;
+  border-radius: 6px;
+  top: 6px;
+  left: 4px;
+}
+
+.tile-info-text {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
