@@ -11,7 +11,7 @@ export const ProfileScreen = (_) => (
   <div class="profile-section">
     <div>
       <nav>
-        <button>hamburger</button>
+        <button><div className="hamburger" /></button>
         <Avatar />
       </nav>
       <div className="title-section">
