@@ -5,7 +5,7 @@ import './avatar.css';
 
 export const Avatar = ({ image, alt, status }) => (
   <div className="avatar-wrapper">
-    <img src={image} alt={alt} />
+    <img className="avatar-image" src={image} alt={alt} />
     <div className={`avatar-status-indicator ${status}-status`}></div>
   </div>
 );
