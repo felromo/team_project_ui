@@ -35,3 +35,19 @@ LightCardWithAction.args = {
   ...DarkCardWithAction.args,
   light: true,
 };
+
+export const DarkCardWithProgress = Template.bind({});
+DarkCardWithProgress.args = {
+  ...DarkCard.args,
+  progress: {
+    label: 'label',
+    value: 50,
+  },
+};
+
+export const LightCardWithProgress = Template.bind({});
+LightCardWithProgress.args = {
+  ...DarkCardWithProgress.args,
+  light: true,
+};
+
