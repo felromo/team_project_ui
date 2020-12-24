@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './button.css';
 
-export const Button = ({ buttonHierarchy, child }) => (
+export const Button = ({ buttonHierarchy, child, style }) => (
   <button
     type="button"
     className={`brand-button ${buttonHierarchy}`}
+    style={style}
   >
     {child}
   </button>
