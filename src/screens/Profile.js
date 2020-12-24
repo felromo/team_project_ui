@@ -5,20 +5,26 @@ import { Heading, SubHeading, Title } from '../components/Typography';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
 
+import './profile.css';
+
 export const ProfileScreen = (_) => (
-  <div>
+  <div class="profile-section">
     <div>
       <nav>
         <button>hamburger</button>
         <Avatar />
       </nav>
       <div>
-        <SubHeading child="Good Evening User!" />
-        <Heading child="Projects" />
+        <SubHeading
+          color="dark"
+          child="Good Evening User!"
+          style={{ fontSize: '20px' }}
+        />
+        <Heading color="dark" child="Projects" />
       </div>
-      <div>
+      <div className="grid-section">
         <Title child="Overviews" />
-        <div>
+        <div className="grid-container">
           <Card />
           <Card />
           <Card />
