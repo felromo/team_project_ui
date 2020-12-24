@@ -1,0 +1,27 @@
+npm WARN exec The following package was not found and will be installed: run
+Watching /Users/coviel/Documents/Work/intechideas/online_collaboration_demo/team_project_ui and all sub-directories not excluded by your .gitignore. Will not monitor dotfiles.
+Found & ignored ./node_modules ; is listed in .gitignore
+Found & ignored ./src/App.css ; has ignored extension
+Found & ignored ./src/components/button.css ; has ignored extension
+Found & ignored ./src/index.css ; has ignored extension
+Found & ignored ./src/stories/Button.js ; is listed in .gitignore
+Found & ignored ./src/stories/Button.stories.js ; is listed in .gitignore
+Found & ignored ./src/stories/Header.js ; is listed in .gitignore
+Found & ignored ./src/stories/Header.stories.js ; is listed in .gitignore
+Found & ignored ./src/stories/Introduction.stories.mdx ; is listed in .gitignore
+Found & ignored ./src/stories/Page.js ; is listed in .gitignore
+Found & ignored ./src/stories/Page.stories.js ; is listed in .gitignore
+Found & ignored ./src/stories/assets/code-brackets.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/colors.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/comments.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/direction.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/flow.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/plugin.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/repo.svg ; is listed in .gitignore
+Found & ignored ./src/stories/assets/stackalt.svg ; is listed in .gitignore
+Found & ignored ./src/stories/button.css ; has ignored extension
+Found & ignored ./src/stories/header.css ; has ignored extension
+Found & ignored ./src/stories/page.css ; has ignored extension
+
+Starting: --silent build-storybook -- --output-dir /var/folders/m0/vjl974qd0zg0jlqk3cb99jxw0000gn/T/chromatic--77844-dyHIMEFfCW1O
+node: bad option: --silent
