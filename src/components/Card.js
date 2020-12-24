@@ -6,8 +6,8 @@ import './card.css';
 
 export const Card = ({ child }) => (
   <div class="brand-card">
-    <Copy child="Meetings" />
-    <SubHeading child="10" />
-    <Copy child="Pending" />
+    <Copy color="light" child="Meetings" />
+    <SubHeading color="light" child="10" />
+    <Copy color="light" child="Pending" />
   </div>
 );
