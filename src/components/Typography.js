@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './typography.css';
 
 export const Heading = ({ child }) => (
-  <p>
+  <p className="brand-heading">
     {child}
   </p>
 );
@@ -17,7 +17,9 @@ Heading.defaultProps = {
 };
 
 export const SubHeading = ({ child }) => (
-  <p>
+  <p
+    className="brand-subheading"
+  >
     {child}
   </p>
 );
@@ -29,7 +31,7 @@ SubHeading.defaultProps = {
 };
 
 export const Title = ({ child }) => (
-  <p>
+  <p className="brand-title">
     {child}
   </p>
 );
@@ -41,7 +43,7 @@ Title.defaultProps = {
 };
 
 export const Copy = ({ child }) => (
-  <p>
+  <p className="brand-copy">
     {child}
   </p>
 );
