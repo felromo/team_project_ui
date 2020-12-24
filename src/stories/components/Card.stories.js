@@ -40,7 +40,7 @@ export const DarkCardWithProgress = Template.bind({});
 DarkCardWithProgress.args = {
   ...DarkCard.args,
   progress: {
-    label: 'label',
+    label: '50%',
     value: 50,
   },
 };
