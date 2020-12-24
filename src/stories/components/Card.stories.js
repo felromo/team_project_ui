@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Card } from '../../components/Card';
-import * as ButtonStories from './Button.stories';
 
 const METADATA = {
   title: 'Component Library/Card',
@@ -17,5 +16,5 @@ DefaultCard.args = {};
 
 export const WithAction = Template.bind({});
 WithAction.args = {
-  action: <ButtonStories.PrimaryAction {...ButtonStories.PrimaryAction.args} />,
+  action: { child: 'Card Action', onPress: null },
 };
