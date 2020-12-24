@@ -12,9 +12,14 @@ export default METADATA;
 const Template = (args) => <Card {...args} />;
 
 export const DefaultCard = Template.bind({});
-DefaultCard.args = {};
+DefaultCard.args = {
+  title: 'Meetings',
+  amount: 10,
+  status: 'Pending',
+};
 
 export const WithAction = Template.bind({});
 WithAction.args = {
+  ...DefaultCard.args,
   action: { child: 'Card Action', onPress: null },
 };
