@@ -1,0 +1,18 @@
+.progressbar-bar,
+.progressbar-progress {
+  height: 6px;
+  border: none;
+  border-radius: 6px;
+}
+
+.progressbar-bar {
+  background-color: #FFEEE5;
+  position: relative;
+  width: 140px;
+}
+
+.progressbar-progress {
+  background-color: #FF9C6B;
+  position: absolute;
+  width: 70px;
+}
