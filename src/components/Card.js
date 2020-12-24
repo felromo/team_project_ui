@@ -15,7 +15,8 @@ export const Card = ({ title, amount, status, action }) => (
       {action ? (
         <Button
           buttonHierarchy="primary"
-          child="Card Action"
+          child={action.child}
+          onClick={action.onPress}
           style={{
             width: '100%',
             fontSize: '11px',
