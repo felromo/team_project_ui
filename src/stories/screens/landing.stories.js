@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { LandingScreen } from '../../screens/landing';
+import { LandingScreen } from '../../screens/Landing';
 
 const METADATA = {
   title: 'Screens/Landing Screen',
