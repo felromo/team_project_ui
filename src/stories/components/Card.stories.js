@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Card } from '../../components/Card';
+import * as ButtonStories from './Button.stories';
 
 const METADATA = {
   title: 'Component Library/Card',
@@ -12,9 +13,9 @@ export default METADATA;
 const Template = (args) => <Card {...args} />;
 
 export const DefaultCard = Template.bind({});
-DefaultCard.args = {
-
-};
+DefaultCard.args = {};
 
 export const WithAction = Template.bind({});
-WithAction.args = {};
+WithAction.args = {
+  action: <ButtonStories.PrimaryAction {...ButtonStories.PrimaryAction.args} />,
+};
