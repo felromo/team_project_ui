@@ -1,7 +1,7 @@
 .profile-section {
   width: 414px;
   min-height: 897px;
-  background-color: #F4EFF5;
+  background-color: #f4eff5;
   padding: 1rem 2rem;
 }
 
@@ -9,6 +9,47 @@
   height: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.profile-section nav button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #8a959e;
+  background-color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.hamburger,
+.hamburger:after,
+.hamburger:before {
+  width: 24px;
+  height: 3px;
+  border: none;
+  border-radius: 16px;
+  display: block;
+  background-color: #8a959e;
+  margin: 0 auto;
+}
+
+.hamburger {
+  position: relative;
+}
+
+.hamburger:after,
+.hamburger:before {
+  content: '';
+  position: absolute;
+}
+
+.hamburger:before {
+  top: -8px;
+}
+.hamburger:after {
+  top: 8px;
 }
 
 .profile-section .title-section {
