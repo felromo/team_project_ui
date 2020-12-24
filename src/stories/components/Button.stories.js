@@ -18,6 +18,9 @@ PrimaryAction.args = {
 };
 
 export const SecondaryAction = Template.bind({});
+SecondaryAction.parameters = {
+  backgrounds: { default: 'dark' },
+};
 SecondaryAction.args = {
   buttonHierarchy: 'secondary',
   child: 'Secondary Button',

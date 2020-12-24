@@ -19,6 +19,9 @@ DarkCard.args = {
 };
 
 export const LightCard = Template.bind({});
+LightCard.parameters = {
+  backgrounds: { default: 'dark' },
+};
 LightCard.args = {
   ...DarkCard.args,
   light: true,
@@ -31,6 +34,9 @@ DarkCardWithAction.args = {
 };
 
 export const LightCardWithAction = Template.bind({});
+LightCardWithAction.parameters = {
+  backgrounds: { default: 'dark' },
+};
 LightCardWithAction.args = {
   ...DarkCardWithAction.args,
   light: true,
@@ -46,8 +52,10 @@ DarkCardWithProgress.args = {
 };
 
 export const LightCardWithProgress = Template.bind({});
+LightCardWithProgress.parameters = {
+  backgrounds: { default: 'dark' },
+};
 LightCardWithProgress.args = {
   ...DarkCardWithProgress.args,
   light: true,
 };
-
