@@ -11,5 +11,17 @@ export default METADATA;
 
 const Template = (args) => <Avatar {...args} />;
 
-export const UserAvatar = Template.bind({});
-UserAvatar.args = {};
+export const OnlineUser = Template.bind({});
+OnlineUser.args = {
+  status: 'online',
+};
+
+export const BusyUser = Template.bind({});
+BusyUser.args = {
+  status: 'busy',
+};
+
+export const AwayUser = Template.bind({});
+AwayUser.args = {
+  status: 'away',
+};
