@@ -7,17 +7,25 @@ import { Button } from './Button';
 import './tile.css';
 
 export const Tile = ({ title, subtitle, action }) => (
-  <div>
-    <Copy child={title} />
-    <Copy child={subtitle} />
+  <div className="brand-tile">
+    <div className="tile-info-row">
+      <div className="tile-logo"></div>
+      <div className="tile-info-text">
+        <Copy color="dark" child={title} style={{ fontSize: '16px' }} />
+        <Copy color="secondary" child={subtitle} style={{ fontSize: '14px', marginTop: '8px' }} />
+      </div>
+    </div>
     <Button
       buttonHierarchy="primary"
       child={action.child}
       onClick={action.onPress}
       style={{
-        width: '100%',
+        display: 'block',
+        marginTop: '1.5rem',
+        marginLeft: 'auto',
+        width: '40%',
+        height: '48px',
         fontSize: '11px',
-        height: 'inherit',
         padding: '11px 0',
       }}
     />
