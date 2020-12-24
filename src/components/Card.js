@@ -12,7 +12,20 @@ export const Card = ({ title, amount, status, action }) => (
     <div>
       <SubHeading color="light" child="10" />
       <Copy color="light" child="Pending" />
-      {action}
+      {action ? (
+        <Button
+          buttonHierarchy="primary"
+          child="Card Action"
+          style={{
+            width: '100%',
+            fontSize: '11px',
+            height: 'inherit',
+            padding: '11px 0',
+          }}
+        />
+      ) : (
+        ''
+      )}
     </div>
   </div>
 );
@@ -21,7 +34,10 @@ Card.propTypes = {
   title: PropTypes.string,
   amount: PropTypes.number,
   status: PropTypes.string,
-  action: PropTypes.instanceOf(Button),
+  action: PropTypes.shape({
+    child: PropTypes.string,
+    onPress: PropTypes.func,
+  }),
 };
 Card.defaultProps = {
   title: 'Provide a title',
