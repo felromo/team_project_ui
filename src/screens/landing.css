@@ -1,3 +1,13 @@
 .landing-section {
-  
+  width: 414px;
+  min-height: 897px;
+  height: 100%;
+  background-color: white;
+}
+
+.landing.button-row {
+  background-color: #F4EFF5;
+  width: 100%;
+  height: 142px;
+  display: flex;
 }
