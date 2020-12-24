@@ -9,7 +9,7 @@ const METADATA = {
 
 export default METADATA;
 
-const Template = (args) => <LandingScreen {...args} />;
+// const Template = (args) => <LandingScreen {...args} />;
 
-export const DefaultState = Template.bind({});
-DefaultState.args = {};
+// export const DefaultState = Template.bind({});
+// DefaultState.args = {};
