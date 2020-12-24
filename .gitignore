@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.eslintcache
+src/stories/assets/*.svg
+src/stories/*.stories.js
+src/stories/*.js
+src/stories/*.css
+src/stories/Introduction.stories.mdx
