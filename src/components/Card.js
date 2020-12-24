@@ -6,12 +6,12 @@ import { Button } from './Button';
 
 import './card.css';
 
-export const Card = ({ title, amount, status, action }) => (
-  <div class="brand-card">
-    <Copy color="light" child="Meetings" />
+export const Card = ({ title, amount, status, light, action }) => (
+  <div className={`brand-card card-${light ? 'light' : 'dark'}`}>
+    <Copy color={`${!light ? 'light' : 'dark'}`} child="Meetings" />
     <div>
-      <SubHeading color="light" child="10" />
-      <Copy color="light" child="Pending" />
+      <SubHeading color={`${!light ? 'light' : 'dark'}`} child="10" />
+      <Copy color={`${!light ? 'light' : 'dark'}`} child="Pending" />
       {action ? (
         <Button
           buttonHierarchy="primary"
@@ -35,6 +35,7 @@ Card.propTypes = {
   title: PropTypes.string,
   amount: PropTypes.number,
   status: PropTypes.string,
+  light: PropTypes.bool,
   action: PropTypes.shape({
     child: PropTypes.string,
     onPress: PropTypes.func,
@@ -44,5 +45,6 @@ Card.defaultProps = {
   title: 'Provide a title',
   amount: 0,
   status: 'Provide a status',
+  light: false,
   action: null,
 };
