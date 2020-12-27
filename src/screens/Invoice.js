@@ -1,18 +1,17 @@
 import React from 'react';
 
-import { Avatar } from '../components/Avatar';
+import { NavBar } from '../components/NavBar';
 import { Copy } from '../components/Typography';
 import { Tile } from '../components/Tile';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 
+import './invoice.css';
+
 export const InvoiceScreen = (_) => (
-  <div>
+  <div class ="invoice-section">
     <div>
-      <nav>
-        <button>hamburger</button>
-        <Avatar />
-      </nav>
+      <NavBar />
       <div>
         <Copy child="Send To" />
         <Tile />
