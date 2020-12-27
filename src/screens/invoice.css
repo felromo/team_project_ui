@@ -1,7 +1,7 @@
 .invoice-section {
   width: 414px;
   min-height: 897px;
-  background-color: #f4eff5;
+  background-color: #fcfafb;
   padding: 1rem 2rem;
 }
 
@@ -42,4 +42,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.amount-row {
+  margin-top: 16px;
+}
+
+.invoice-section .button-row {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.invoice-section .button-row button:nth-child(2) {
+  margin-top: 16px;
 }
