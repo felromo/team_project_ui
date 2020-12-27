@@ -9,7 +9,7 @@ const METADATA = {
 
 export default METADATA;
 
-// const Template = (args) => <InvoiceScreen {...args} />;
+const Template = (args) => <InvoiceScreen {...args} />;
 
-// export const DefaultState = Template.bind({});
-// DefaultState.args = {};
+export const DefaultState = Template.bind({});
+DefaultState.args = {};
