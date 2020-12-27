@@ -4,3 +4,42 @@
   background-color: #f4eff5;
   padding: 1rem 2rem;
 }
+
+.navigation-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.navigation-row span {
+  margin-right: 8px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.pdf-row {
+  margin-top: 24px;
+}
+
+.pdf-row .brand-tile {
+  margin-top: 16px;
+}
+
+.task-section {
+  margin-top: 32px;
+}
+
+.newtask-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskcard-section {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
