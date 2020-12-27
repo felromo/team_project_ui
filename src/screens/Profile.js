@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Avatar } from '../components/Avatar';
+import { NavBar } from '../components/NavBar';
 import { Heading, SubHeading, Title } from '../components/Typography';
 import { Card } from '../components/Card';
 import { Button } from '../components/Button';
@@ -10,12 +10,7 @@ import './profile.css';
 export const ProfileScreen = (_) => (
   <div class="profile-section">
     <div>
-      <nav>
-        <button>
-          <div className="hamburger" />
-        </button>
-        <Avatar />
-      </nav>
+      <NavBar />
       <div className="title-section">
         <SubHeading
           color="dark"
