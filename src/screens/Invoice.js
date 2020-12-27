@@ -31,7 +31,7 @@ export const InvoiceScreen = (_) => (
         </div>
         <div class="amount-row">
           <Copy color="dark" child="Amount Payable" />
-          <Copy child="$250.24 USD" />
+          <Copy color="tertiary" child="$250.24 USD" />
         </div>
       </div>
       <div class="button-row">
