@@ -17,12 +17,12 @@ export const InvoiceScreen = (_) => (
         <SubHeading color="dark" child="Create Inovice" />
       </div>
       <div class="pdf-row">
-        <Copy child="Send To" />
+        <Copy color="dark" child="Send To" />
         <Tile />
       </div>
       <div class="task-section">
         <div class="newtask-row">
-          <Copy child="Invoice Details" />
+          <Copy color="dark" child="Invoice Details" />
           <Button buttonHierarchy="primary" child="Add New Task" />
         </div>
         <div class="taskcard-section">
@@ -30,7 +30,7 @@ export const InvoiceScreen = (_) => (
           <Card />
         </div>
         <div class="amount-row">
-          <Copy child="Amount Payable" />
+          <Copy color="dark" child="Amount Payable" />
           <Copy child="$250.24 USD" />
         </div>
       </div>
