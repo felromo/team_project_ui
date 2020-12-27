@@ -29,12 +29,12 @@ export const InvoiceScreen = (_) => (
           <Card />
           <Card />
         </div>
-        <div>
+        <div class="amount-row">
           <Copy child="Amount Payable" />
           <Copy child="$250.24 USD" />
         </div>
       </div>
-      <div>
+      <div class="button-row">
         <Button buttonHierarchy="primary" child="Download Project" />
         <Button buttonHierarchy="secondary" child="Send Details" />
       </div>
