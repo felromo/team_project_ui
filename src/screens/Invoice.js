@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { NavBar } from '../components/NavBar';
-import { Copy } from '../components/Typography';
+import { SubHeading, Copy } from '../components/Typography';
 import { Tile } from '../components/Tile';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
@@ -12,16 +12,20 @@ export const InvoiceScreen = (_) => (
   <div class ="invoice-section">
     <div>
       <NavBar />
-      <div>
+      <div class="navigation-row">
+        <span>&lsaquo;</span>
+        <SubHeading color="dark" child="Create Inovice" />
+      </div>
+      <div class="pdf-row">
         <Copy child="Send To" />
         <Tile />
       </div>
-      <div>
-        <div>
+      <div class="task-section">
+        <div class="newtask-row">
           <Copy child="Invoice Details" />
           <Button buttonHierarchy="primary" child="Add New Task" />
         </div>
-        <div>
+        <div class="taskcard-section">
           <Card />
           <Card />
         </div>
